@@ -8,9 +8,67 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
-  <h1>My contributions</h1>
+  <h1>Open Source contributions</h1>
   <div>
-    https://www.dropbox.com/s/efkj16zlmpij44f/open-source-contributions.txt?dl=0
+    <h2>Stark & Wayne <a href="https://github.com/starkandwayne/codex">Codex</a></h2>
+    <p>Terraform scripts to deploy a Cloud Foundry instance on AWS.</p>
+    <ul>
+      <li><a href="https://github.com/starkandwayne/codex/pull/136">Replace</a> NAT instance for an AWS NAT gateway.</li>
+    </ul>
+    <ul>
+      <li><a href="https://github.com/starkandwayne/codex/pull/135">Fix</a> error checking evaluating resources that won't be created.</li>
+    </ul>
+  </div>
+  <div>
+    <h2><a href="https://openfoodnetwork.org/">Open Food Network</a></h2>
+    <lu>
+      <li><a href="https://github.com/openfoodfoundation/openfoodnetwork/pull/1639">Small UI</a> fix with tests</li>
+    </lu>
+  </div>
+  <div>
+    <h2><a href="https://www.ubuntu.com/cloud/juju">Juju</a> Charms</h2>
+    <p>Juju is a service modelling tool to deploy workloads on clouds.
+    Charms are the scripts that actually deploy and manage the workload</p>
+    <ul>
+      <li><a href="https://code.launchpad.net/~matsubara/charms/trusty/jenkins/jenkins-bundle/+merge/270415">Code review</a> for port of a feature from a Bash based Jenkins charm to
+        the python based one.</li>
+    </ul>
+  </div>
+  <div>
+    <h2><a href="https://maas.io/">MAAS</a> (Metal As A Service)</h2>
+    <p>MAAS CI tests that I started and maintained for a few years while working on the MAAS project. That's how the main test file looked from my last contribution. The code has evolved
+    a lot since I moved on to other projects.</p>
+    <lu>
+      <li><a href="http://bazaar.launchpad.net/~maas-maintainers/maas/qa-lab-tests/view/244/maas-integration.py?start_revid=244">MAAS CI tests</a>
+      </li>
+      <li><a href="https://code.launchpad.net/~matsubara/maas/add-ipmi-assertion/+merge/138211">Code review</a> for a small patch to assert IPMI commands worked correctly.
+      </li>
+      <li><a href="https://code.launchpad.net/~matsubara/maas/enable-cluster-controller/+merge/146202">Enable</a> tests for another component of MAAS running on a separate network segment.  
+      </li>
+    </lu>
+  </div>
+  <div>
+    <h2><a href="http://packaging.ubuntu.com/html/auto-pkg-test.html">Autopkgtest</a></h2>
+    <p>Debian project to test installed debian packages.</p>
+    <ul>
+      <li><a href="https://code.launchpad.net/~matsubara/auto-package-testing/add-apt-repo/+merge/123132">Add apt-repo</a> option to adt.</li>
+    </ul>
+  </div>
+  <div>
+    <h2><a href="https://wiki.ubuntu.com/Apport">Apport</a></h2>
+    <p>Ubuntu error reporting tool.</p>
+    <ul>
+      <li><a href="http://bazaar.launchpad.net/~apport-hackers/apport/trunk/revision/1788?start_revid=1788">Modify</a> apport to use launchpadlib instead of web scraping to file a bug on Launchpad.net</li>
+    </ul>
+  </div>
+  <div>
+    <h2><a href="https://launchpad.net/">Launchpad</a></h2>
+    <p>Launchpad is Ubuntu's bugtracking, code hosting, package manager and
+    translation platform.</p>
+    <ul>
+      <li><a href="https://code.launchpad.net/~matsubara/launchpad/404279-private-ppa-link/+merge/66335">Code review</a> for a bug fix done to show PPA credentials to the user
+      </li>
+    </ul>
   </div>
 </body>
 </html>
